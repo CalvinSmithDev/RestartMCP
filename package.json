@@ -1,19 +1,20 @@
 {
-    "name": "claude-restart-mcp",
-    "version": "1.0.0",
-    "description": "MCP server for restarting applications",
-    "main": "mcp_server.js",
-    "bin": {
-        "claude-restart-mcp": "./mcp_server.js"
-    },
-    "dependencies": {
-        "express": "^4.17.1",
-        "find-process": "^1.4.7"
-    },
-    "scripts": {
-        "start": "node mcp_server.js"
-    },
-    "mcp": {
-        "protocol": "2024-11-05"
-    }
+  "name": "@calvinsmithdev/claude-restart-mcp",
+  "version": "1.0.0",
+  "description": "Claude MCP Server To Restart Applications In Windows",
+  "homepage": "https://github.com/CalvinSmithDev/RestartMCP#readme",
+  "bugs": {
+    "url": "https://github.com/CalvinSmithDev/RestartMCP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalvinSmithDev/RestartMCP.git"
+  },
+  "license": "ISC",
+  "author": "Calvin Smith",
+  "type": "commonjs",
+  "main": "mcp_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

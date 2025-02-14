@@ -12,5 +12,8 @@
     },
     "scripts": {
         "start": "node mcp_server.js"
+    },
+    "mcp": {
+        "protocol": "2024-11-05"
     }
 }

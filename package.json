@@ -1,0 +1,16 @@
+{
+    "name": "claude-restart-mcp",
+    "version": "1.0.0",
+    "description": "MCP server for restarting applications",
+    "main": "mcp_server.js",
+    "bin": {
+        "claude-restart-mcp": "./mcp_server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "find-process": "^1.4.7"
+    },
+    "scripts": {
+        "start": "node mcp_server.js"
+    }
+}
